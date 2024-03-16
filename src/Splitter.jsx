@@ -123,7 +123,7 @@ const Splitter = () => {
             </label>
             <div className="tip-buttons grid grid-cols-2 2sm:grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               <button
-                className={`text-[20px] sm:text-2xl font-semibold max-w-[134.88px] h-[52px] rounded-[10px] ${
+                className={`text-[20px] sm:text-2xl font-semibold max-w-[300.88px] h-[52px] rounded-[10px] ${
                   tipPercentage === "5"
                     ? "bg-[#9FE8DD] text-[#00474B]"
                     : "bg-[#00474B] text-[#fff]"
@@ -136,7 +136,7 @@ const Splitter = () => {
               </button>
 
               <button
-                className={`text-[20px] sm:text-2xl font-semibold max-w-[134.88px] h-[52px] rounded-[10px] ${
+                className={`text-[20px] sm:text-2xl font-semibold max-w-[300.88px] h-[52px] rounded-[10px] ${
                   tipPercentage === "10"
                     ? "bg-[#9FE8DD] text-[#00474B]"
                     : "bg-[#00474B] text-[#fff]"
@@ -148,7 +148,7 @@ const Splitter = () => {
                 10%
               </button>
               <button
-                className={`text-[20px] sm:text-2xl font-semibold max-w-[134.88px] h-[52px] rounded-[10px] ${
+                className={`text-[20px] sm:text-2xl font-semibold max-w-[300.88px] h-[52px] rounded-[10px] ${
                   tipPercentage === "15"
                     ? "bg-[#9FE8DD] text-[#00474B]"
                     : "bg-[#00474B] text-[#fff]"
@@ -160,7 +160,7 @@ const Splitter = () => {
                 15%
               </button>
               <button
-                className={`text-[20px] sm:text-2xl font-semibold max-w-[134.88px] h-[52px] rounded-[10px] ${
+                className={`text-[20px] sm:text-2xl font-semibold max-w-[300.88px] h-[52px] rounded-[10px] ${
                   tipPercentage === "25"
                     ? "bg-[#9FE8DD] text-[#00474B]"
                     : "bg-[#00474B] text-[#fff]"
@@ -172,7 +172,7 @@ const Splitter = () => {
                 25%
               </button>
               <button
-                className={`text-[20px] sm:text-2xl font-semibold max-w-[134.88px] h-[52px] rounded-[10px] ${
+                className={`text-[20px] sm:text-2xl font-semibold max-w-[300.88px] h-[52px] rounded-[10px] ${
                   tipPercentage === "50"
                     ? "bg-[#9FE8DD] text-[#00474B]"
                     : "bg-[#00474B] text-[#fff]"
@@ -191,12 +191,12 @@ const Splitter = () => {
                     placeholder="0"
                     onChange={handleCustomTipChange}
                     autoFocus
-                    className="max-w-[134.88px] h-[52px] bg-[#F3F8FB] rounded-[10px] outline-none focus:ring focus:ring-[#26C2AD] text-right text-2xl font-semibold leading-5 text-[#00474B] p-[5px] pr-[15px]"
+                    className="max-w-[300.88px] h-[52px] bg-[#F3F8FB] rounded-[10px] outline-none focus:ring focus:ring-[#26C2AD] text-right text-2xl font-semibold leading-5 text-[#00474B] p-[5px] pr-[15px]"
                   />
                 </>
               ) : (
                 <button
-                  className={`text-[20px] sm:text-2xl font-semibold max-w-[134.88px] h-[52px] rounded-[10px] ${
+                  className={`text-[20px] sm:text-2xl font-semibold max-w-[300.88px] h-[52px] rounded-[10px] ${
                     isCustomTipSelected
                       ? "bg-[#9FE8DD] text-[#00474B] hidden"
                       : "bg-[#F3F8FB] text-[#00474B]"
