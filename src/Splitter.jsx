@@ -101,7 +101,7 @@ const Splitter = () => {
         <h1 className="text-[30px] sm:text-[40px] uppercase font-semibold leading-[40px] sm:leading-[50px] tracking-[0.2em] text-center text-[#406667]">
           Splt <br /> tter
         </h1>
-        <div className="h-auto sm:h-[587px] flex flex-col sm:flex-row items-center gap-[20px] rounded-[15px] bg-[#fff] p-[20px] lg:p-[50px] mt-[20px] sm:mt-[50px]">
+        <div className="h-auto sm:h-[587px] flex flex-col sm:flex-row items-center gap-[50px] rounded-[15px] bg-[#fff] p-[20px] lg:p-[50px] mt-[20px] sm:mt-[50px]">
           <div className="sm:basis-[50%]">
             <label className="text-[#6B7777] text-xl font-medium leading-[30px] tracking-normal relative">
               Bill
